@@ -9,5 +9,3 @@ ADD . /app
 WORKDIR /app
 
 CMD python /app/news_bot.py
-
-heroku container:release --app news-update-us web
